@@ -1,0 +1,67 @@
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+body {
+  background-color: lightblue;
+}
+
+
+.App{
+  margin: 10rem auto;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 165px;
+  border: 2px solid white;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: blue;
+  color: white;
+  border: 2px solid blue;
+}
+
+.theList button {
+  font-size: 10px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: red;
+  opacity: 0.5;
+  color: white;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+li {
+  color: #333;
+  background-color: rgba(255, 255, 255, .5);
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  list-style: none;
+  min-width: 240px;
+  text-align: right;
+
+}
+
+ul {
+  padding: 0;
+}
